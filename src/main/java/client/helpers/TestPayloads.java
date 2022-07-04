@@ -635,6 +635,6 @@ public class TestPayloads {
             "    }\n" +
             "  ]";
 
-    public static final String SMALL_PAYLOAD = "{\"generalData\":{\"partnerClassification\":\"employedPerson\"," +
+    public static final String SMALL_PAYLOAD = "{\"generalData\":{\"partnerClassification\":\"employedPerson\",\n" +
             "\"contexts\":[\"customer\"]},\"checkData\":{\"name\":\"Samsa\",\"firstName\":\"Gregor\",\"birthDate\":\"1963-02-25\",\"nationality\":\"DEU\",\"economicArea\":\"\",\"countryOfResidence\":0,\"industrySectors\":{\"affiliations\":[{}]}}}";
 }
